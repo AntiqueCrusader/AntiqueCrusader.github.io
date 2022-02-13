@@ -10,7 +10,7 @@ function checkCreds() {
         document.getElementById("LogText").innerHTML = "Badge ID is  an invalid number!";
     } else {
         alert("Access Granted, Welcome " + fullName + "!");
-        location.replace("Efficency at HQ.html");
+        location.replace("CSC102-Final/Untitled-1.html");
     }
     if (fullName =="Richard Conway" && badgeNumb == "1337") { //Easter Egg - Supposed to play some music when you login with these credentials
        document.getElementById("LogText").innerHTML = "No matter how many times you punch that guard it will not allow you access to Mission Control"
