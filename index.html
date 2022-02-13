@@ -4,7 +4,7 @@
     <style> .Normal{visibility: visible;}</style>
 <body>
     <div class="Normal">
-        <p class="Normaltxt">When clicked This Text Might be replaced by more Information where Applicable</p>
+        <p class="Normaltxt">When clicked This Text Might be replaced by more Information where Applicable</p> <!-- Text thats Replaced-->
     </div>
     <div class="hidden">
         <p class="words">
@@ -22,15 +22,15 @@
             6.  Research, document, test and evaluate several current industry information security-based threats, risks, malicious activities, covert methodology, encryption technologies, mitigation techniques or unconventional tactics to prevent loss of sensitive information and data confidentiality, integrity, and availability.
             </p>
     </div>
-<button type="button" onclick="LoginControl.html"> Click Me to Log in to Mission Control </button> 
+<button type="button" onclick="LoginControl.html"> Click Me to Log in to Mission Control </button> <!--Button to Mission Control document-->
 <br>
- <button type="button" onclick="myfunction()"> Click me to See the UAT Objectives for the Network Secuirty BA Degree </button>
+ <button type="button" onclick="myfunction()"> Click me to See the UAT Objectives for the Network Secuirty BA Degree </button> 
   <script>
     function myfunction(){
-        var hid = document.getElementsByClassName("hidden");
+        var hid = document.getElementsByClassName("hidden"); //Makes the <div clas "hidden" Visible after button press
     if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
         hid[0].style.visibility = "visible";
-        var hid =document.getElementsByClassName('Normal')
+        var hid =document.getElementsByClassName('Normal');    // Makes the <div class "Normal" Invisible after button Press
         if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
             hid[0].style.visibility = "hidden"
         }
