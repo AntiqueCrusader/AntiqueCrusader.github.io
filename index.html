@@ -2,41 +2,32 @@
 <html>
     <style> .hidden{visibility: hidden;}</style>
     <style> .Normal{visibility: visible;}</style>
+    <script src="Index github function.js"></script>
+    <link rel="stylesheet" type="text/css" href="Github Index CSS.css">
 <body>
     <div class="Normal">
         <p class="Normaltxt">When clicked This Text Might be replaced by more Information where Applicable</p> <!-- Text thats Replaced-->
     </div>
     <div class="hidden">
-        <p class="words">
-
-            1. Create a network infrastructure design communications document that includes identified hardware components, connections to outside world, identified physical layer connectivity (media) and addressing, including operational and security components in the design.
-            <br>
-            2.  Install, configure, and test security hardware and software tools with supporting documentation such as port scanners, vulnerability detection systems, intrusion detection systems, firewalls, system hardening, anti-virus tools, patch management, auditing, and assessment.
-            <br>
-            3.  Construct, implement and document a script or a program to automate a security-related process or other tasks such as installation, administration, management, mapping resources, logon scripts, patch management, updates, auditing, analysis, and assessment.
-            <br>
-            4.  Create a policy or procedure that addresses events such as: a disaster recovery plan, a business continuity plan, an incident response policy, an acceptable usage document, an information security policy, a physical security policy, assessments or troubleshooting procedures.
-            <br>
-            5.  Develop a research report or implementation plan concerning legal and ethical best practices and mandated requirements that pertain to information security.
-            <br>
-            6.  Research, document, test and evaluate several current industry information security-based threats, risks, malicious activities, covert methodology, encryption technologies, mitigation techniques or unconventional tactics to prevent loss of sensitive information and data confidentiality, integrity, and availability.
-            </p>
+      <table id="obj" border="2" width="70%" class="tab1">
+            <col style="width: 35%;">
+            <col style="width: 35%;">
+            <thead>
+            <th align="left">UAT Network Secuirty Objectives</th>
+            </thead>
+                <tbody>
+                    <tr id = "1"><td>Create a network infrastructure design communications document that includes identified hardware components, connections to outside world, identified physical layer connectivity (media) and addressing, including operational and security components in the design.</td></tr>
+                    <tr> <td>Install, configure, and test security hardware and software tools with supporting documentation such as port scanners, vulnerability detection systems, intrusion detection systems, firewalls, system hardening, anti-virus tools, patch management, auditing, and assessment.</td></tr>
+                    <tr><td>Construct, implement and document a script or a program to automate a security-related process or other tasks such as installation, administration, management, mapping resources, logon scripts, patch management, updates, auditing, analysis, and assessment.</td></tr>
+                    <tr><td>Create a policy or procedure that addresses events such as: a disaster recovery plan, a business continuity plan, an incident response policy, an acceptable usage document, an information security policy, a physical security policy, assessments or troubleshooting procedures.</td></tr>
+                    <tr><td>Develop a research report or implementation plan concerning legal and ethical best practices and mandated requirements that pertain to information security.</td></tr>
+                    <td>Research, document, test and evaluate several current industry information security-based threats, risks, malicious activities, covert methodology, encryption technologies, mitigation techniques or unconventional tactics to prevent loss of sensitive information and data confidentiality, integrity, and availability.</td>
+                </tbody>
+        </table>  
     </div>
-<button type="button" onclick="LoginControl.html"> Click Me to Log in to Mission Control </button> <!--Button to Mission Control document-->
+<button type="button" onclick="myfunction()"> Click me to See the UAT Objectives for the Network Secuirty BA Degree </button> 
 <br>
- <button type="button" onclick="myfunction()"> Click me to See the UAT Objectives for the Network Secuirty BA Degree </button> 
-  <script>
-    function myfunction(){
-        var hid = document.getElementsByClassName("hidden"); //Makes the <div clas "hidden" Visible after button press
-    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
-        hid[0].style.visibility = "visible";
-        var hid =document.getElementsByClassName('Normal');    // Makes the <div class "Normal" Invisible after button Press
-        if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
-            hid[0].style.visibility = "hidden"
-        }
-    }
-}
-  </script>
-  
+ <button type="button" onclick="LoginControl.html"> Click Me to Log in to Mission Control </button> <!--Button to Mission Control document-->
+
 </body>
 </html>
